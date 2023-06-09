@@ -1,10 +1,10 @@
 {
-  "name": "@SavioVarsalle/baileys-store",
-  "version": "1.0.0-beta.1",
+  "name": "@SavioVarsalle/baileys-store-main",
+  "version": "0.0.1",
   "description": "Minimal Baileys data storage for your favorite DBMS built with Prisma",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "repository": "https://github.com/SavioVarsalle/baileys-store.git",
+  "repository": "https://github.com/SavioVarsalle/baileys-store-main.git",
   "author": "Royhan (https://github.com/SavioVarsalle)",
   "license": "MIT",
   "scripts": {

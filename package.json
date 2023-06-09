@@ -1,12 +1,12 @@
 {
-  "name": "baileys-store-main",
+  "name": "baileys-store-main-luispimenta",
   "version": "1.0.1",
   "description": "Minimal Baileys data storage for your favorite DBMS built with Prisma",
   "main": "src/index.ts",
   "types": "src/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SavioVarsalle/baileys-store-main.git"
+    "url": "git+https://github.com/luiuspimenta/baileys-store-main.git"
   },
   "author": "Sávio Varsalle https://github.com/SavioVarsalle",
   "license": "MIT",
@@ -17,7 +17,6 @@
     "format": "prettier . --write"
   },
   "devDependencies": {
-    "@adiwajshing/baileys": "github:WhiskeySockets/Baileys",
     "@prisma/client": "^4.7.1",
     "@types/node": "^18.11.10",
     "@typescript-eslint/eslint-plugin": "^5.45.0",
@@ -30,10 +29,11 @@
     "typescript": "^4.9.3"
   },
   "dependencies": {
+    "@whiskeysockets/baileys": "^6.2.1",
     "tiny-invariant": "^1.3.1"
   },
   "peerDependencies": {
-    "@adiwajshing/baileys": "github:WhiskeySockets/Baileys",
+    "@whiskeysockets/baileys": "github:WhiskeySockets/Baileys",
     "@prisma/client": "^4.7.0"
   },
   "files": [

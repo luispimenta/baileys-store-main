@@ -32,10 +32,10 @@ model Session {
 
 ```bash
 # Using npm
-npm i @ookamiiixd/baileys-store
+npm i @SavioVarsalle/baileys-store-main
 
 # Using yarn
-yarn add @ookamiiixd/baileys-store
+yarn add @SavioVarsalle/baileys-store-main
 ```
 
 ## Setup
@@ -52,7 +52,7 @@ Before you can actually use this library, you have to setup your database first
 import pino from 'pino';
 import makeWASocket from '@adiwajshing/baileys';
 import { PrismaClient } from '@prisma/client';
-import { initStore, Store } from '@ookamiiixd/baileys-store';
+import { initStore, Store } from '@SavioVarsalle/baileys-store-main';
 
 const logger = pino();
 const socket = makeWASocket();

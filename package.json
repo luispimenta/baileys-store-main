@@ -6,7 +6,7 @@
   "types": "src/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/luiuspimenta/baileys-store-main.git"
+    "url": "git+https://github.com/luispimenta/baileys-store-main.git"
   },
   "author": "Sávio Varsalle https://github.com/SavioVarsalle",
   "license": "MIT",

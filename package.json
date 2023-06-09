@@ -1,9 +1,9 @@
 {
   "name": "baileys-store-main",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Minimal Baileys data storage for your favorite DBMS built with Prisma",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "main": "src/index.ts",
+  "types": "src/index.d.ts",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/SavioVarsalle/baileys-store-main.git"
@@ -37,7 +37,7 @@
     "@prisma/client": "^4.7.0"
   },
   "files": [
-    "dist/",
+    "src/",
     "prisma/schema.prisma",
     ".env.example"
   ],
